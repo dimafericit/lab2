@@ -14,6 +14,32 @@ public class Benutzer {
         this.sports = sports;
     }
 
+    //setters
+    public void setNachname(String nachname) {
+        this.nachname = nachname;
+    }
+
+    public void setSports(List<Sports> sports) {
+        this.sports = sports;
+    }
+
+    public void setVorname(String vorname) {
+        this.vorname = vorname;
+    }
+
+    //getters
+    public List<Sports> getSports() {
+        return sports;
+    }
+
+    public String getNachname() {
+        return nachname;
+    }
+
+    public String getVorname() {
+        return vorname;
+    }
+
     //Benutzer class print method
     @Override
     public String toString() {
